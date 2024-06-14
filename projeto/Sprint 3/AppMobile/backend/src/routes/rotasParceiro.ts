@@ -15,6 +15,7 @@ routerParceiro.get('/GETParceirosNomeId', async (req, res) => {
     }
 });
 
+
 routerParceiro.post('/GETCursoExpertisesParceiro', async (req, res) => {
     const idParceiro = req.body.IdParceiro
     const idExpertise = req.body.IdExpertise
